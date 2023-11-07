@@ -1,0 +1,12 @@
+.order .title {
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: var(--border);
+    padding: 10px;
+    font-size: 22px;
+    color: var(--black);
+}
+
+.header .header-1 .profile .account {
+    display: none;
+}

@@ -1,0 +1,75 @@
+.form-container form {
+    border: var(--border);
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+form h3 {
+    font-size: 25px;
+    color: var(--black);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+form .box {
+    margin: 7px 0;
+    width: 100%;
+    border: var(--border);
+    padding: 14px;
+    font-size: 18px;
+    color: var(--black);
+}
+
+form span {
+    display: block;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+form .box {
+    width: 100%;
+    margin: 7px 0;
+    font-size: 16px;
+    border: var(--border);
+    border-radius: 5px;
+    padding: 10px 12px;
+    color: var(--black);
+    text-transform: none;
+}
+
+form .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0;
+}
+
+form .checkbox label {
+    font-size: 15px;
+    color: var(--light-color);
+    cursor: pointer;
+}
+
+form .btn {
+    text-align: center;
+    width: 100%;
+    margin: 15px 0;
+}
+
+form p {
+    padding-top: 8px;
+    color: var(--light-color);
+    font-size: 15px;
+}
+
+form p a {
+    color: var(--green);
+}
+
+form p a:hover {
+    color: var(--green);
+    text-decoration: underline;
+}

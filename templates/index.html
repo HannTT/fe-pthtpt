@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+
+    <!-- Font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+</head>
+<body>
+<!-- header section -->
+<header class="header">
+    <div class="header-1">
+        <a href="index.html" class="logo"><i class="fa-solid fa-shoe-prints"></i> Shop</a>
+        <form action="" class="search-form">
+            <input type="search" placeholder="Tìm kiếm sản phẩm" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="btn-search" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="pages/cart.html" class="fas fa-shopping-cart"><span>(3)</span></a>
+            <div id="btn-user" class="fas fa-user"></div>
+        </div>
+
+        <div class="profile">
+            <p class="name">Hi, <span>User</span>!</p>
+            <div class="flex">
+                <a href="pages/profile.html" class="fas fa-address-card"></a>
+                <a href="#" class="fas fa-right-from-bracket"></a>
+            </div>
+            <div class="account">
+                <a href="pages/login.html" class="log-btn">Đăng nhập</a>
+                <a href="pages/register.html" class="log-btn">Đăng ký</a>
+            </div>
+        </div>
+    </div>
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="index.html">Trang chủ</a>
+            <a href="pages/products.html">Sản phẩm</a>
+            <a href="#arrivals">Mới ra mắt</a>
+            <a href="#reviews">Đánh giá</a>
+            <a href="#blogs">Liên hệ</a>
+        </nav>
+    </div>
+</header>
+
+<!-- bottom navbar -->
+<nav class="bottom-navbar">
+    <a href="index.html" class="fas fa-home"></a>
+    <a href="pages/products.html" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<!-- home section -->
+<section class="home" id="home">
+    <div class="row">
+        <div class="content">
+            <h3>Chương trình khuyến mãi lên tới 75%</h3>
+            <p>Nhanh tay đặt mua với giá ưu đãi ngay!</p>
+            <a href="#" class="btn">Mua ngay</a>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="assets/img/kristian-egelund.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="assets/img/mike-von-rj8ohjW9RBA-unsplash.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="assets/img/nathan-dumlao-slider.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="assets/img/mutzii-slider.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="assets/img/mike-von-slider.jpg" alt=""></a> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- icons section -->
+<section class="icons-container">
+    <div class="icons">
+        <i class="fas fa-plane"></i>
+        <div class="content">
+            <h3>Miễn phí vận chuyển</h3>
+            <p>Đơn hàng trên 500.000đ</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>Bảo mật thanh toán</h3>
+            <p>Bảo mật chặt chẽ</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>Hoàn trả dễ dàng</h3>
+            <p>Trong vòng 7 ngày</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>Hỗ trợ 24/7</h3>
+            <p>Liên lạc với chúng tôi mọi lúc</p>
+        </div>
+    </div>
+</section>
+
+<!-- product section -->
+<section class="products" id="products">
+    <h1 class="heading"><span>Các loại sản phẩm</span></h1>
+    <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="assets/img/mostafa-mahmoudi-3OZr-hLbsq0-unsplash.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Giày 1</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="assets/img/mnz-OJTNpLmsSHs-unsplash.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Giày 2</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="assets/img/monaal-garg-99NxpMVxWDA-unsplash.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Giày 3</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="assets/img/solesavy-LgzM6R0ojoE-unsplash.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Giày 4</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="assets/img/omar-prestwich-jLEGurepDco-unsplash.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Giày 5</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="assets/img/mitchel-lensink-1BI-ar91C7U-unsplash.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Giày 6</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="assets/img/domino-164_6wVEHfI-unsplash.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Giày 7</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="assets/img/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Giày 8</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+</section>
+
+<!-- deal section -->
+<section class="deal">
+    <div class="content">
+        <h3>Khuyến mãi trong ngày</h3>
+        <h1>Lên tới 50%</h1>
+        <p>Deal siêu to mua hàng thả ga</p>
+        <a href="#" class="btn"> Đặt mua ngay</a>
+    </div>
+
+    <div class="image">
+        <img src="assets/img/deal2.jpg" alt="">
+    </div>
+
+</section>
+
+<!-- new arrivals section -->
+<section class="arrivals" id="arrivals">
+    <h1 class="heading"> <span>Sản phẩm mới</span></h1>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/img/new-arrivals1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sản phẩm mới</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/img/new-arrivals2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sản phẩm mới</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/img/new-arrivals3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sản phẩm mới</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/img/new-arrivals4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sản phẩm mới</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/img/new-arrivals5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sản phẩm mới</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/img/new-arrivals6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sản phẩm mới</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/img/new-arrivals7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sản phẩm mới</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/img/new-arrivals8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sản phẩm mới</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/img/new-arrivals9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sản phẩm mới</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/img/new-arrivals10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sản phẩm mới</h3>
+                    <div class="price">700.000đ <span>1.000.000đ</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- newsletter section -->
+<section class="newsletter">
+    <form action="">
+        <h3>Đăng ký để nhận thông tin mới nhất</h3>
+        <input type="email" placeholder="Nhập email của bạn" class="box">
+        <input type="submit" value="Đăng ký" class="btn">
+    </form>
+</section>
+
+
+<!-- footer section -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Địa chỉ cửa hàng</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Cửa hàng </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Cửa hàng </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Cửa hàng </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Cửa hàng </a>
+        </div>
+
+        <div class="box">
+            <h3>Truy cập nhanh</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Trang chủ </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Sản phẩm </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Mới ra mắt </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Đánh giá </a>
+            <!-- <a href="#"> <i class="fas fa-arrow-right"></i> Liên hệ </a> -->
+        </div>
+
+        <div class="box">
+            <h3>Liên kết bổ sung</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Thông tin cá nhân </a>
+            <!-- <a href="#"> <i class="fas fa-arrow-right"></i> Đơn hàng đã đặt </a> -->
+            <a href="#"> <i class="fas fa-arrow-right"></i> Chính sách bảo mật</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Phương thức thanh toán </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Dịch vụ hỗ trợ</a>
+        </div>
+
+        <div class="box">
+            <h3>Đường dây nóng</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +84123456789 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +84123456789 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> Shop@gmail.com </a>
+        </div>
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-youtube"></a>
+        <a href="#" class="fab fa-twitter"></a>
+    </div>
+
+    <div class="credit">Created by <span>...</span> | All right reserved |</div>
+</section>
+
+<!-- loader -->
+<div class="loader-container">
+    <img src="assets/icon/loading-6321_256.gif" alt="">
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

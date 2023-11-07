@@ -1,0 +1,189 @@
+.title {
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: var(--border);
+    padding: 10px;
+    font-size: 22px;
+    color: var(--black);
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.box-container .box {
+    border: var(--border);
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.box-container .box img {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 18px;
+}
+
+.box-container .box .fa-eye,
+.box-container .box .fa-shopping-cart {
+    position: absolute;
+    top: 10px;
+    height: 45px;
+    width: 45px;
+    line-height: 43px;
+    border: var(--border);
+    background-color: #f2f2f2;
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--black);
+    transition: .2s linear;
+    border-radius: 5px;
+}
+
+.box-container .box .fa-eye:hover,
+.box-container .box .fa-shopping-cart:hover {
+    background-color: var(--black);
+    color: #f2f2f2;
+}
+
+.box-container .box .fa-eye {
+    left: -50px;
+}
+
+.box-container .box .fa-shopping-cart {
+    right: -50px;
+}
+
+.box-container .box:hover .fa-eye {
+    left: 10px;
+}
+
+.box-container .box:hover .fa-shopping-cart {
+    right: 10px;
+}
+
+.box-container .box .cat {
+    font-size: 17px;
+    color: var(--border);
+}
+
+.box-container .box .cat:hover {
+    color: var(--green);
+}
+
+.box-container .box .name {
+    font-size: 20px;
+    color: var(--black);
+    margin: 10px 0;
+}
+
+.box-container .box .flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.box-container .box .flex .price {
+    margin-right: auto;
+    font-size: 18px;
+    color: var(--black);
+}
+
+.box-container .box .flex .price span {
+    color: var(--light-color);
+    font-size: 15px;
+}
+
+.box-container .box .flex .qty {
+    padding: 5px;
+    border: var(--border);
+    font-size: 15px;
+    color: var(--border);
+    border-radius: 5px;
+    width: 45px;
+}
+
+.box-container .box .flex .fa-edit {
+    width: 45px;
+    background-color: var(--green);
+    color: #f2f2f2;
+    cursor: pointer;
+    font-size: 20px;
+    height: 45px;;
+    border-radius: 5px;
+    border: var(--border);
+}
+
+.box-container .box .flex .fa-edit:hover {
+    background-color: #f2f2f2;
+    color: var(--black);
+}
+
+.box-container .box .fa-x {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    border: var(--border);
+    color: #fff;
+    line-height: 26px;
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.box-container .box .fa-x:hover {
+    background-color: red;
+    color: #f2f2f2;
+}
+
+.box-container .box .sub-total {
+    margin-top: 10px;
+    font-size: 18px;
+    color: var(--border);
+}
+
+.box-container .box .sub-total span {
+    color: red;
+}
+
+.more-delete {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.more-delete button.btn {
+    background-color: red;
+}
+
+.cart-total {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: var(--border);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.cart-total p {
+    font-size: 25px;
+    color: var(--black);
+}
+
+.cart-total p span {
+    color: red;
+}
